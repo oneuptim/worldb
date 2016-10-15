@@ -26,5 +26,9 @@ module Worldb
     # Middleware like session, flash, cookies can be added back manually.
     # Skip views, helpers and assets when generating a new resource.
     config.api_only = true
+    config.generators do |g|
+      g.fixture_replacement :factory_girl
+      g.test_framework :minitest, spec: false, fixture: true
+    end
   end
 end
