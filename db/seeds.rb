@@ -1,4 +1,4 @@
-if Country.count.zero? && State.count.zero? && City.count.zero? 
+if Country.count.zero? && State.count.zero?
   sql = File.read(Rails.root.join('db', "worldb.sql"))
   statements = sql.split(/;$/)
   statements.pop
