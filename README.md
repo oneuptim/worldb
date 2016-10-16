@@ -1,24 +1,14 @@
-# README
+# Worldb
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+World countries states and cities micro service in rails5 api
 
-Things you may want to cover:
+## To contribute to the project
 
-* Ruby version
+To contribute Just follow the next steps:
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet
+* Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it
+* Clone the project
+* Start a feature/bugfix branch
+* Commit and push until you are happy with your contribution
+* It is desired to add some tests for it.
