@@ -1,3 +1,5 @@
 json.cities @collection do |element|
-  json.partial! 'cities/city', city: element
+  json.cache! ['api', 'city', element['name'].dowcase.tr(' ', '_') ] do
+    json.name element['name']
+  end
 end
