@@ -1,6 +1,6 @@
-json.cache! ['api', 'countries'] do
+json.cache! 'api_countries' do
   json.countries @collection do |element|
-    json.cache! ['api', 'country', element.id] do
+    json.cache! "api_country_#{element.id}" do
       json.iso element.iso
       json.name element.name
       json.languages element.languages
