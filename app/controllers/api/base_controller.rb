@@ -1,7 +1,7 @@
 class Api::BaseController < ApplicationController
 
   def index
-    @collection = model_class.all
+    @collection = model_class.all.order(:name)
   end
 
   def show
